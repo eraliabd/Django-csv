@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Roboto&display=swap');
+{% load static %}
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.Lato{
+    font-family: 'Lato', sans-serif;
+}
+
+*{
+    text-decoration: none;
+}
+
+#header .fixed
+{
+    width: 33%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("/static/img/bg-orqafon.jpg") no-repeat center/cover;
+}
+
+#header .fixed img 
+{
+    width: 70%;
+}
+
+.div a{
+   text-decoration: none;
+   color: #000;
+} 
+
+@media (max-width: 768px)
+{
+    #header .fixed
+    {
+        position: relative;
+        width: 100%;
+        height: 50vh;
+        
+    }
+    .container-fluid img
+    {
+         width: 90%;
+    }
+}
