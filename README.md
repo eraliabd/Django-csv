@@ -1,5 +1,5 @@
 # Django-CSV
-About me
+About me. This project was developed in Django and Bootstrap
 Link: https://eralipy.pythonanywhere.com/
 
 
